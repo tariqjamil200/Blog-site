@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+::root{
+    --font1:font-family: 'Exo 2', sans-serif;
+   --font2: font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+nav{
+    background-color: rgb(211, 252, 252);
+}
+.nav-container{
+display: flex;
+align-items: center;
+padding: 20px 0;
+}
+.brand-logo{
+    width: 180px;
+}
+.brand-logo img{
+    width: 100%;
+    height: auto;
+}
+.nav-items{
+    margin-left: auto;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items li{
+margin-left: 30px;
+padding: 7px;
+transition: 0.6s all;
+}
+.nav-items li:hover{
+    border-bottom: 4px solid #0815bee5;
+}
+.nav-items li a{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    color: rgb(65, 64, 64);
+}
+p{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+a{
+    color: 0;
+}
+.active{
+    border-bottom: 4px solid rgba(8, 21, 190, 0.897);
+}
+.btn{
+background-color:#f57018e5 ;
+padding: 10px;
+margin-left: 15px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-top-right-radius: 8px;
+
+}
+.btn a{
+    color: #fff;
+    transition: .4s linear;
+}
+.btn a:hover{
+    background-color: #ee8f50e5;
+    color: #a18a8a;
+    padding: 10px; 
+    /* border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-top-right-radius: 8px; */
+}
+main{
+    padding: 30px 0;
+}
+.main h1{
+    font-family:'Exo 2', sans-serif ;
+    color: rgb(97, 97, 97);
+    padding: 25px 0;
+}
+hr.footer{
+    border: 1px solid rgb(143, 139, 139);
+}
+.icons span{
+    margin-right: 20px;
+}
+.icons{
+    font-size: 50px;
+}
+.icons a{
+   color:rgb(151, 240, 240);
+}
+footer {
+padding: 30px;   
+}
